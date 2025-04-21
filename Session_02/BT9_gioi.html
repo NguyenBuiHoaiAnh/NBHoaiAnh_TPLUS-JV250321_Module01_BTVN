@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form thông tin sinh viên</title>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="Gender" value="Nam"> Nam
+                    <input type="radio" name="Gender" value="Nữ"> Nữ
+                </td>
+            </tr>
+
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="tel"></td>
+            </tr>
+
+            <tr>
+                <td>Chuyên ngành:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Năm nhập học:</td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td>Điểm GPA:</td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td>Địa chỉ:</td>
+                <td><textarea name="" rows="3" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Lớp học:</td>
+                <td>
+                    <select name="">
+                        <option value="lop1">Lớp 1</option>
+                        <option value="lop2">Lớp 2</option>
+                        <option value="lop2">Lớp 3</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ngày đăng ký học:</td>
+                <td><input type="datetime-local"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Gửi thông tin"></td>
+            </tr>
+        </table>
+    </form>
+</body>
